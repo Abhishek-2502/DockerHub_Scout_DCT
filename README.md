@@ -8,7 +8,19 @@ This project demonstrates a full DevSecOps workflow for a Spring Boot-based **Re
 
 ---
 
-## 📦 Prerequisites
+## 📚 Table of Contents
+1. [Prerequisites](#prerequisites)
+2. [Build & Run Locally](#build-&-run-locally)
+3. [Push to DockerHub](#push-to-dockerhub)
+4. [Scan with Docker Scout](#scan-with-docker-scout)
+5. [Enable Docker Content Trust (DCT)](#enable-docker-content-trust(dct))
+6. [Pull and Verify Signed Image on Another Machine](#pull-and-verify-signed-image-on-another-machine)
+6. [Summary](#summary)
+7. [Credits](#credits)
+8. [Authors](#authors)
+
+
+## Prerequisites
 
 - Docker installed
 - Maven installed
@@ -18,7 +30,7 @@ This project demonstrates a full DevSecOps workflow for a Spring Boot-based **Re
 
 ---
 
-## 🏗️ Build & Run Locally
+## Build & Run Locally
 
 Clone the Repo
 ```bash
@@ -49,7 +61,7 @@ Visit: [http://localhost:8080](http://localhost:8080)
 
 ---
 
-## ☁️ Push to DockerHub
+## Push to DockerHub
 
 Login to DockerHub
 ```bash
@@ -68,7 +80,7 @@ docker push <dockerhub_username>/retail-app:v1
 
 ---
 
-## 🔍 Scan with Docker Scout
+## Scan with Docker Scout
 
 Quick image summary
 ```bash
@@ -92,7 +104,7 @@ docker scout recommendations <dockerhub_username>/retail-app:v1
 
 ---
 
-## 🔐 Enable Docker Content Trust (DCT)
+## Enable Docker Content Trust (DCT)
 
 ### 1️⃣ Generate a Signing Key (first time only)
 
@@ -131,7 +143,7 @@ docker push <dockerhub_username>/retail-app:v1
 
 ---
 
-## 📥 Pull and Verify Signed Image on Another Machine
+## Pull and Verify Signed Image on Another Machine
 
 Enforce trust (Windows)
 ```bash
@@ -152,7 +164,7 @@ docker pull <dockerhub_username>/retail-app:v1
 
 ---
 
-## 📊 Summary
+## Summary
 
 | Feature                     | Status      |
 | --------------------------- | ----------- |
@@ -164,7 +176,7 @@ docker pull <dockerhub_username>/retail-app:v1
 
 ---
 
-## 📌 Credits
+## Credits
 
 * Docker Scout - [https://docs.docker.com/scout/](https://docs.docker.com/scout/)
 * Docker Content Trust - [https://docs.docker.com/engine/security/trust/](https://docs.docker.com/engine/security/trust/)
