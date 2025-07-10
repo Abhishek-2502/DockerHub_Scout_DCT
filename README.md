@@ -22,7 +22,7 @@ This project demonstrates a full DevSecOps workflow for a Spring Boot-based **Re
 
 Clone the Repo
 ```bash
-git clone
+git clone https://github.com/Abhishek-2502/DockerHub_Scout_DCT
 ````
 
 Change directory
@@ -106,6 +106,7 @@ Linux
 export DOCKER_CONTENT_TRUST=1
 ```
 
+Generating Key
 ```bash
 docker trust key generate abhishekkey
 ```
@@ -173,6 +174,6 @@ docker pull <dockerhub_username>/retail-app:v1
 ## 🔐 Author
 
 **Abhishek Rajput**
-Email: [abhishek25022004@gmail.com](mailto:abhishek25022004@gmail.com)
-DockerHub: [abhi25022004](https://hub.docker.com/u/abhi25022004)
+- Email: [abhishek25022004@gmail.com](mailto:abhishek25022004@gmail.com)
+- DockerHub: [abhi25022004](https://hub.docker.com/u/abhi25022004)
 
