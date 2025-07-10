@@ -57,7 +57,7 @@ Test the app locally
 docker run -d -p 8080:8080 retail-app:v1
 ````
 
-Visit: [http://localhost:8080](http://localhost:8080)
+Visit: [http://localhost:8080/products](http://localhost:8080/products)
 
 ---
 
