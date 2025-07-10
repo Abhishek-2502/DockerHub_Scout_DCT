@@ -10,10 +10,10 @@ This project demonstrates a full DevSecOps workflow for a Spring Boot-based **Re
 
 ## 📚 Table of Contents
 1. [Prerequisites](#prerequisites)
-2. [Build & Run Locally](#build-&-run-locally)
+2. [Build and Run Locally](#build-and-run-locally)
 3. [Push to DockerHub](#push-to-dockerhub)
 4. [Scan with Docker Scout](#scan-with-docker-scout)
-5. [Enable Docker Content Trust (DCT)](#enable-docker-content-trust(dct))
+5. [Enable Docker Content Trust DCT](#enable-docker-content-trust-dct)
 6. [Pull and Verify Signed Image on Another Machine](#pull-and-verify-signed-image-on-another-machine)
 6. [Summary](#summary)
 7. [Credits](#credits)
@@ -30,7 +30,7 @@ This project demonstrates a full DevSecOps workflow for a Spring Boot-based **Re
 
 ---
 
-## Build & Run Locally
+## Build and Run Locally
 
 Clone the Repo
 ```bash
@@ -104,7 +104,7 @@ docker scout recommendations <dockerhub_username>/retail-app:v1
 
 ---
 
-## Enable Docker Content Trust (DCT)
+## Enable Docker Content Trust DCT
 
 ### 1️⃣ Generate a Signing Key (first time only)
 
