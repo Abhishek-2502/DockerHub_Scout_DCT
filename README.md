@@ -183,7 +183,7 @@ docker pull <dockerhub_username>/retail-app:v1
 
 ---
 
-## 🔐 Author
+## Author
 
 **Abhishek Rajput**
 - Email: [abhishek25022004@gmail.com](mailto:abhishek25022004@gmail.com)
