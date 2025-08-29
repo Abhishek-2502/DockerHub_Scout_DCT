@@ -17,7 +17,7 @@ This project demonstrates a full DevSecOps workflow for a Spring Boot-based **Re
 6. [Pull and Verify Signed Image on Another Machine](#pull-and-verify-signed-image-on-another-machine)
 6. [Summary](#summary)
 7. [Credits](#credits)
-8. [Authors](#authors)
+8. [Author](#author)
 
 
 ## Prerequisites
